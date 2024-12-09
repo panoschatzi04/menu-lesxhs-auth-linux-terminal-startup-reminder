@@ -1,8 +1,7 @@
 import pandas as pd
 import datetime
 
-# Read the Excel file from the specified path
-schedule_df = pd.read_excel("add path to python script.xlsx")
+schedule_df = pd.read_excel("menu-lesxhs.xlsx")
 
 def time_to_datetime(time_obj):
     if isinstance(time_obj, datetime.time):
