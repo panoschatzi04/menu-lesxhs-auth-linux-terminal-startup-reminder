@@ -43,14 +43,14 @@ Note:
 
 1. Clone the repository to your local machine.
 
-2. Install dependencies using.\
-Run the following commands\
+2. Install dependencies using.
+Run the following commands
 * To make sure everything is up to date :\
-` sudo apt-get update `\
+` sudo apt-get update `
 * To install the library dependencies:\
 ` sudo apt-get install python3-pandas `\
-` sudo apt-get install python3-datetime `\
-* To make sure everything is up to date again:\
+` sudo apt-get install python3-datetime `
+* To make sure everything is up to date again:
 ` sudo apt update && sudo apt upgrade `
  
 * You can additionally restart your machine:
@@ -58,15 +58,16 @@ Run the following commands\
 
 3. Modify the script to match your schedule Excel file path.
   
-4. Add the script to your terminal startup file.
-Open the terminal and 
-`nano ~/.bashrc`
-Go to the bottom of the nano file (where there is some empty space) and add the 
+4. Add the script to your terminal startup file.\
+Open the terminal and\
+`nano ~/.bashrc`\
+Go to the bottom of the nano file (where there is some empty space) and add the
 ```
 echo -e "$(python3 [path to python script])"
 ```
+Then save and exit with `Control + O` and `Enter`
 
-You can check if this worked by using this command to display the <<.bashrc>> file:
+You can check if this worked by using this command in the terminal to display the <<.bashrc>> file:
 `source ~/.bashrc`
 
 
