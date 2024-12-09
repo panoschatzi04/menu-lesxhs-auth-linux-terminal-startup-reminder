@@ -6,7 +6,7 @@
 - Python 3.x
 - Pandas library
 - Datetime library
-- Your custom Menu-Lesxhs Excel file. This is mine: 
+- Your custom Menu-Lesxhs Excel file. Mine is on the repo under the name `menu-lesxhs.xlsx`.
 
 By default the plugin is setup for my dietery preferances, but you can change the Excel File in your computer to match your tastes.
 
