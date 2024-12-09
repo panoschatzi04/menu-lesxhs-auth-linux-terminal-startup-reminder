@@ -31,7 +31,7 @@ for index, row in schedule_df.iterrows():
                 time_until_next = start_time
 
 if current_activity:
-    print(f"Παλικάρι, η λέσχη έχει {current_day}: {current_activity}")
+    print(f"Παλικάρι, η λέσχη έχει: {current_activity}")
 else:
     if next_activity:
         time_remaining = time_until_next - current_time
