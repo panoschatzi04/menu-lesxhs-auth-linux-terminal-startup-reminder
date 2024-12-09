@@ -45,15 +45,15 @@ Note:
 
 2. Install dependencies using.\
 Run the following commands\
-To make sure everything is up to date :\
+* To make sure everything is up to date :\
 ` sudo apt-get update `\
-To install the library dependencies:\
+* To install the library dependencies:\
 ` sudo apt-get install python3-pandas `\
 ` sudo apt-get install python3-datetime `\
-To make sure everything is up to date again:\
+* To make sure everything is up to date again:\
 ` sudo apt update && sudo apt upgrade `
  
-You can additionally restart your machine:
+* You can additionally restart your machine:
 `sudo reboot` 
 
 3. Modify the script to match your schedule Excel file path.
@@ -62,7 +62,9 @@ You can additionally restart your machine:
 Open the terminal and 
 `nano ~/.bashrc`
 Go to the bottom of the nano file (where there is some empty space) and add the 
-`echo -e `$(python3 [path to the python file])`
+```
+echo -e "$(python3 [path to python script])"
+```
 
 You can check if this worked by using this command to display the <<.bashrc>> file:
 `source ~/.bashrc`
