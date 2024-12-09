@@ -46,7 +46,7 @@ Note:
 2. Install dependencies using.\
 Run the following commands\
 To make sure everything is up to date :\
-` sudo apt-get update `
+` sudo apt-get update `\
 To install the library dependencies:\
 ` sudo apt-get install python3-pandas `\
 ` sudo apt-get install python3-datetime `\
